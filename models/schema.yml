@@ -1,0 +1,15 @@
+version: 2
+
+models: []
+sources:
+  - name: default
+    database: dbt_test
+    schema: dbt_test
+
+    freshness:
+      warn_after: {count: 999999, period: day}
+
+    tables:
+      - name: test_events
+        identifier: test_events
+        loaded_at_field: timestamp

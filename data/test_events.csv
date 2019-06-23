@@ -1,0 +1,4 @@
+id,timestamp,type,message
+1,2019-06-20T18:00:00Z,log,initial message
+2,2019-06-20T18:01:00Z,log,msg2
+3,2019-06-20T18:02:00Z,log,msg3
