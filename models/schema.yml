@@ -3,8 +3,8 @@ version: 2
 models: []
 sources:
   - name: default
-    database: dbt_test
-    schema: dbt_test
+    database: dev
+    schema: dbt_shadow_prod
 
     freshness:
       warn_after: {count: 999999, period: day}
